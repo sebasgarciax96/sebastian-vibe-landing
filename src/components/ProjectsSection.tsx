@@ -4,32 +4,25 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
-    id: 'vibecommerce',
-    title: 'VibeCommerce',
-    description: 'E-commerce growth, Conversion optimization',
-    icon: '🛍️',
-    color: 'bg-purple-500',
+    id: 'myflightfriend',
+    title: 'My Flight Friend',
+    description: 'Automated Delta price tracking & credit requests',
+    icon: '✈️',
+    color: 'bg-blue-600',
   },
   {
-    id: 'growthhub',
-    title: 'GrowthHub',
-    description: 'Marketing automation, Analytics platform',
-    icon: '📊',
-    color: 'bg-gray-800',
+    id: 'lifesystems',
+    title: 'Life Systems',
+    description: 'Personal productivity & habit tracking platform',
+    icon: '📋',
+    color: 'bg-green-600',
   },
   {
-    id: 'codecrafter',
-    title: 'CodeCrafter',
-    description: 'Developer tools, Web application',
-    icon: '⚡',
-    color: 'bg-orange-500',
-  },
-  {
-    id: 'socialvibe',
-    title: 'SocialVibe',
-    description: 'Social media marketing, Brand strategy',
-    icon: '💼',
-    color: 'bg-blue-500',
+    id: 'luxuryleadgen',
+    title: 'Luxury Lead Gen',
+    description: 'Organic traffic solutions for luxury service brands',
+    icon: '💎',
+    color: 'bg-purple-600',
   },
 ];
 
