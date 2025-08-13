@@ -1,6 +1,7 @@
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { Copy } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import sebastianProfile from '@/assets/sebastian-profile.png';
 
 const ProfileCard = () => {
@@ -34,9 +35,11 @@ const ProfileCard = () => {
       </div>
       
       <div className="flex gap-3">
-        <Button className="bg-button-primary hover:bg-button-primary-hover text-white px-6 py-2 rounded-full">
-          Hire Me
-        </Button>
+        <Link to="/contact">
+          <Button className="bg-button-primary hover:bg-button-primary-hover text-white px-6 py-2 rounded-full">
+            Hire Me
+          </Button>
+        </Link>
         <Button variant="outline" className="border-input-border text-text-secondary hover:text-text-primary px-6 py-2 rounded-full flex items-center gap-2">
           <Copy className="w-4 h-4" />
           Copy Email

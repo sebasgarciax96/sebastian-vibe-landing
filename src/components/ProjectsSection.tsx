@@ -1,5 +1,6 @@
 import { ArrowRight, ChevronRight } from 'lucide-react';
 import { Button } from './ui/button';
+import { Link } from 'react-router-dom';
 
 const projects = [
   {
@@ -40,10 +41,12 @@ const ProjectsSection = () => {
           <div className="w-2 h-2 bg-text-muted rounded-full"></div>
           <span className="text-sm text-text-secondary">Projects</span>
         </div>
-        <Button variant="ghost" className="text-text-secondary hover:text-text-primary text-sm flex items-center gap-1">
-          View All
-          <ArrowRight className="w-4 h-4" />
-        </Button>
+        <Link to="/projects">
+          <Button variant="ghost" className="text-text-secondary hover:text-text-primary text-sm flex items-center gap-1">
+            View All
+            <ArrowRight className="w-4 h-4" />
+          </Button>
+        </Link>
       </div>
       
       <h2 className="text-2xl font-bold text-text-primary mb-6">My Works</h2>
