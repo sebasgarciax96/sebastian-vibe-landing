@@ -24,6 +24,18 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				
+				// Portfolio specific colors
+				'card-shadow': 'hsl(var(--card-shadow))',
+				'text-primary': 'hsl(var(--text-primary))',
+				'text-secondary': 'hsl(var(--text-secondary))',
+				'text-muted': 'hsl(var(--text-muted))',
+				'input-bg': 'hsl(var(--input-bg))',
+				'input-border': 'hsl(var(--input-border))',
+				'button-primary': 'hsl(var(--button-primary))',
+				'button-primary-hover': 'hsl(var(--button-primary-hover))',
+				'success': 'hsl(var(--success))',
+				'success-bg': 'hsl(var(--success-bg))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'

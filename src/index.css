@@ -2,14 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Portfolio Design System - Clean, modern aesthetic */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 240 10% 97%;
+    --foreground: 240 10% 15%;
+    
+    /* Card and surface colors */
+    --card: 0 0% 100%;
+    --card-shadow: 240 10% 85%;
+    
+    /* Primary brand colors */
+    --primary: 240 100% 8%;
+    --primary-hover: 240 100% 12%;
+    --success: 140 70% 45%;
+    --success-bg: 140 50% 95%;
+    
+    /* Text hierarchy */
+    --text-primary: 240 10% 15%;
+    --text-secondary: 240 8% 50%;
+    --text-muted: 240 6% 65%;
+    
+    /* Interactive elements */
+    --input-bg: 240 8% 96%;
+    --input-border: 240 8% 88%;
+    --button-primary: 240 100% 8%;
+    --button-primary-hover: 240 100% 12%;
+    
+    /* Layout */
+    --border-radius: 12px;
+    --border-radius-lg: 16px;
+    --shadow-card: 0 2px 8px -2px hsl(240 10% 85% / 0.3);
+    --shadow-elevated: 0 8px 24px -4px hsl(240 10% 80% / 0.4);
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;

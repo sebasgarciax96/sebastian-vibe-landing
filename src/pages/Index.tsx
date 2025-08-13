@@ -1,12 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from '@/components/Header';
+import ProfileCard from '@/components/ProfileCard';
+import ProjectsSection from '@/components/ProjectsSection';
+import ProductsSection from '@/components/ProductsSection';
+import ContactForm from '@/components/ContactForm';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Header />
+      
+      <main className="pt-20 pb-12">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Left Column */}
+            <div className="space-y-8">
+              <ProfileCard />
+              <ProjectsSection />
+            </div>
+            
+            {/* Right Column */}
+            <div className="space-y-8">
+              <ContactForm />
+              <ProductsSection />
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   );
 };
